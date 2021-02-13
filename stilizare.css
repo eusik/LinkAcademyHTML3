@@ -1,0 +1,68 @@
+html {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    body {
+        font-family: Tahoma;
+        font-size: 14px;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: bolder;
+            }
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            }
+        section {
+            display: inline-block;
+            width: 600px fit-content;
+            position: absolute;
+            margin: 0 30px 8px 220px;
+            padding: 0 8px 8px 10px;
+            border-left: 1px solid gray;
+            background-color: rgba(125, 204, 200, 0.288);
+            }
+        aside, nav {
+            display: inline-block;
+            width: 200px;
+            position: fixed;
+            margin: 0 10px 100% 0;
+            padding: 0 8px 100% 0;
+            vertical-align: top;
+            background-color: rgba(224, 209, 125, 0.61);
+            }
+        img {  
+            max-width: 100%;
+            height: auto;
+            }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            table-layout: auto;
+            }
+               
+            th {
+            padding: 18px;
+            }
+               
+            td {
+            padding: 12px;
+            }
+            th,
+            td {
+            border: solid 1px #000000;
+            } 
+            tr {
+            background-color: #EDEDED;
+            }
+            tr.even {
+            background-color: #abdae2d3;
+            }
+               
+            #heading {
+            background-color: #0277ad;
+            color: white;
+            }
